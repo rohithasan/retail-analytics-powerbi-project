@@ -9,8 +9,6 @@ This project started as a practice exercise and gradually turned into a full end
 I used Python for the data preparation and Power BI for building a five-page interactive dashboard covering sales, profitability, customer behavior, and some light predictive analysis.
 
 📂 **Project Structure**
-📂 Project Structure
-
 ```text
 retail-analytics-powerbi-project/
 |
