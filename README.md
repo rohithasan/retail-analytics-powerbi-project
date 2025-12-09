@@ -31,7 +31,7 @@ I created visual checks (distribution plots, category-wise totals) to confirm th
 
 Screenshots of these steps are available in the images/data_cleaning folder.
 
-🔧** 2. Transformation & RFM Model**
+🔧 2. Transformation & RFM Model
 
 For customer analysis, I built a simple RFM model:
 
