@@ -1,1 +1,17 @@
+# Ignore temporary files
+*.tmp
+*.log
+*.DS_Store
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore large raw datasets if not included
+data/raw/*
 
