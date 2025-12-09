@@ -22,10 +22,10 @@ retail-analytics-powerbi-project/
 
 The first part of the project focused on understanding the dataset:
 
->> loaded the Superstore CSV using pandas
->> checked data types, missing values, duplicate rows
->> converted date columns
->> created a few helper features like Sales per Item
+- loaded the Superstore CSV using pandas
+- checked data types, missing values, duplicate rows
+- converted date columns
+- created a few helper features like Sales per Item
 
 I created visual checks (distribution plots, category-wise totals) to confirm the numbers looked reasonable before moving forward.
 
@@ -35,9 +35,9 @@ Screenshots of these steps are available in the images/data_cleaning folder.
 
 For customer analysis, I built a simple RFM model:
 
->> Recency → days since last purchase
->> Frequency → number of orders
->> Monetary → total spend
+- Recency → days since last purchase
+- Frequency → number of orders
+- Monetary → total spend
 
 Then I grouped customers into tiers.
 This helped compare “loyal customers” vs “at-risk” segments in the BI dashboard.
@@ -63,16 +63,16 @@ Breakdown of RFM tiers, repeat vs new customers, CLV and AOV measures.
 
 **Page 4 — Advanced & Predictive Insights**
 Included:
->> scenario analysis using a What-If parameter
->> projected sales
->> rolling averages
->> cumulative trends
+- scenario analysis using a What-If parameter
+- projected sales
+- rolling averages
+- cumulative trends
 
 **Page 5 — AI Insights & Root Cause**
 Used Power BI’s built-in:
->> Key Influencer visual
->> Anomaly Detection line chart
->> Decomposition Tree
+- Key Influencer visual
+- Anomaly Detection line chart
+- Decomposition Tree
 
 🧮 **Key DAX Measures**
 
@@ -94,10 +94,10 @@ RFM segmentation was calculated on the Python side but reused in Power BI.
 
 🎯 **What This Project Demonstrates**
 
->> how to take a dataset through cleaning → transformation → visualization
->> how to structure a portfolio BI project clearly
->> hands-on experience with RFM segmentation and useful DAX measures
->> ability to build dashboards that tell a story instead of dumping visuals
+- how to take a dataset through cleaning → transformation → visualization
+- how to structure a portfolio BI project clearly
+- hands-on experience with RFM segmentation and useful DAX measures
+- ability to build dashboards that tell a story instead of dumping visuals
 
 This project was created to sharpen my practical BI and analytics skills, and to serve as a portfolio example for data roles.
 
