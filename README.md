@@ -11,22 +11,22 @@ I used Python for the data preparation and Power BI for building a five-page int
 📂 **Project Structure**
 
 retail-analytics-powerbi-project/
-│
-├── data/                     # original and cleaned datasets
-│
-├── notebooks/                # python notebooks used for cleaning & transformation
-│
-├── images/                   # screenshots of analysis and dashboards
-│   ├── data_loading/
-│   ├── data_cleaning/
-│   ├── transformation-etl/
-│   └── powerbi/
-│
-├── powerbi/                  # PBIX file + dashboard exports
-│
-├── README.md
-│
-└── LICENSE
+|
++-- data/
+|
++-- notebooks/
+|
++-- images/
+|   +-- data_loading/
+|   +-- data_cleaning/
+|   +-- transformation-etl/
+|   +-- powerbi/
+|
++-- powerbi/
+|
++-- README.md
+|
++-- LICENSE
 
 
 🧹 1. Data Preparation (Python)
