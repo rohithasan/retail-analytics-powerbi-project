@@ -21,6 +21,7 @@ retail-analytics-powerbi-project/
 |   +-- data_cleaning/
 |   +-- transformation-etl/
 |   +-- powerbi/
+|   +-- fabric/
 |
 +-- powerbi/
 |
@@ -86,6 +87,9 @@ Used Power BI’s built-in:
 - Anomaly Detection line chart
 - Decomposition Tree
 
+**Page 6 — Fabric Semantic Model Overview**
+This page is powered directly from a Microsoft Fabric Lakehouse using DirectLake mode. It validates the star schema, semantic model relationships, and confirms that the existing dashboard can run on Fabric without importing data into Power BI.
+
 🧮 **Key DAX Measures**
 
 A few important measures used in this project:
@@ -104,12 +108,26 @@ DIVIDE([Repeat Customers], [Total Customers])
 
 RFM segmentation was calculated on the Python side but reused in Power BI.
 
+**4. Microsoft Fabric Integration**
+
+In the final phase, the project was extended into Microsoft Fabric to demonstrate a modern lakehouse based analytics workflow.
+The cleaned data was ingested into a Fabric Lakehouse using PySpark notebooks and stored as Delta tables. Fact and dimension tables were created at the correct grain following a star schema, with duplicate dimension keys handled during transformation.
+
+A Fabric semantic model was built directly on top of the Lakehouse using DirectLake mode. Relationships were managed inside the semantic model, allowing the existing Power BI dashboard to be reused while switching from local CSV files to a Fabric managed data source.
+
+Screenshots related to this phase are available in the images fabric folder. These include the Lakehouse tables, notebooks, semantic model relationships, SQL endpoint queries, and the Power BI page connected via DirectLake. The exported SQL project is included to show schema objects and example queries.
+This phase shows how a traditional BI project can be scaled into an enterprise grade architecture without rewriting report logic.
+
 🎯 **What This Project Demonstrates**
 
 - how to take a dataset through cleaning → transformation → visualization
 - how to structure a portfolio BI project clearly
 - hands-on experience with RFM segmentation and useful DAX measures
 - ability to build dashboards that tell a story instead of dumping visuals
+- hands-on experience with RFM segmentation, customer metrics, and business focused DAX measures
+- building multi page Power BI dashboards that explain trends, drivers, and outcomes
+- extending a Power BI solution into Microsoft Fabric using Lakehouse, semantic models and DirectLake
+- understanding of how modern BI and data engineering workflows fit together in a real project
 
 This project was created to sharpen my practical BI and analytics skills, and to serve as a portfolio example for data roles.
 
