@@ -14,7 +14,12 @@ retail-analytics-powerbi-project/
 |
 +-- data/
 |
++-- docs/
+|   +-- fabric_sql/
+|       +-- RetailAnalytics.sqlproj/dbo
+|
 +-- notebooks/
+|   +-- fabric_pyspark
 |
 +-- images/
 |   +-- data_loading/
