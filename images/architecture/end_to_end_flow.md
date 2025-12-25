@@ -1,3 +1,4 @@
+```text
 Raw Superstore CSV
         ↓
 Python (Pandas)
@@ -10,3 +11,4 @@ Fabric Semantic Model (DirectLake)
         ↓
 Power BI Dashboard
 (6 Pages of Insights)
+```
