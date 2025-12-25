@@ -27,6 +27,7 @@ retail-analytics-powerbi-project/
 |   +-- transformation-etl/
 |   +-- powerbi/
 |   +-- fabric/
+|   +-- architecture/
 |
 +-- powerbi/
 |
